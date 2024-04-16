@@ -1,0 +1,108 @@
+/* head */
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vh 2vw;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    box-shadow: .2px 0 6px #afafaf;
+    /* z-index: 1; */
+    position: relative;
+    /* background-color: #ffffffe0; */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; */
+}
+div,h2{
+    /* border: 1px solid red; */
+}
+/* head */
+
+/* Brand */
+.brand{
+    font-size: 2.2em;
+    font-weight: 500;
+    color: #535353;
+    cursor: pointer;
+}
+/* Brand */
+
+/* search */
+.search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    padding: 1vh 1.2vw;
+    width: 40vw;
+    /* height: 100%; */
+}
+
+.search img{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    /* width: 100%; */
+}
+
+.search > input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: #535353;
+    padding-left: 8px;
+    width: 100%;
+    height: 30px;
+}
+/* search */
+
+/* searchNotifUser */
+.searchNotifUser{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* searchNotifUser */
+
+/* notifications */
+.notifications{
+    display: flex;
+    width: 8%;
+    justify-content: space-evenly;
+}
+
+.notifications img{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+/* notifications */
+/* user */
+.user{
+    display: flex;
+    padding-left: 25px;
+    border-left: 1.5px solid rgb(231, 231, 231);
+    width: 22vw;
+    overflow: hidden;
+}
+
+.user img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.user h4{
+    color: #535353;
+    margin-bottom: 4px;
+    font-size: 19px;
+}
+
+.user h5{
+    color: #949494;
+    font-size: 12px;
+}
+/* user */

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* 
+.light {
+  color-scheme: light;
+}
+.dark {
+  color-scheme: dark;
+} */
+
+h1,h2,h3{
+    color: #535353;
+}
