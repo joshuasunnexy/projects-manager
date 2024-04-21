@@ -32,7 +32,7 @@ const User = () => {
   return (
     <div className="user">
       <div className="profileImage">
-        <img src="vite.svg" alt="profile photo" />
+        <img src="/public/vite.svg" alt="profile photo" />
       </div>
       <div className="details">
         <h4 className="userName">Joshua</h4>

@@ -1,26 +1,25 @@
+import { NavLink, Outlet } from "react-router-dom";
 import "./projects.css";
 
 const DisplayProjects = () => {
   return (
     <div className="projectsSect">
-      <div className="preview">
-        <h2>Select a project to see it's details</h2>
+      <div>
+        <nav className="projectsNavigation">
+          <ul className="projectsFilter">
+            <NavLink to={"/project/todo"}>To Do</NavLink>
+            <NavLink to={"/project/inprogress"}>In Progress</NavLink>
+            <NavLink to={"/project/completed"}>Completed</NavLink>
+            <NavLink to={"/project/overdue"}>Overdue</NavLink>
+          </ul>
+          <button className="newTask">+ New Task</button>
+        </nav>
+        <Outlet />
+        <div className="todos">
+          
+        </div>
       </div>
-      <div className="filteredProjects"></div>
     </div>
   );
 };
-
-const Preview = () => {};
-
-const Banner = () => {};
-
-const Details = () => {};
-
-const Projects = () => {};
-
-const Filters = () => {};
-
-const ProjectsNav = () => {};
-
 export default DisplayProjects;

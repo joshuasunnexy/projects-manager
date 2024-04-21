@@ -20,6 +20,12 @@ const route = createBrowserRouter([
       {
         path: "/project",
         element: <DisplayProjects />,
+        children: [
+          {
+            path: "/project/:id",
+            element: <h1>Hello</h1>,
+          },
+        ],
       },
       {
         path: "/recent",
@@ -52,7 +58,7 @@ const route = createBrowserRouter([
       {
         path: "/moodboard",
         element: <h1>Moodboard</h1>,
-      }
+      },
     ],
   },
 ]);
