@@ -1,4 +1,4 @@
-import './head.css'
+import "./head.css";
 
 const Head = ({ children }) => {
   return <div className="head">{children}</div>;
@@ -22,7 +22,10 @@ const Search = () => {
 const Notifications = () => {
   return (
     <div className="notifications">
-      <img src="/src/assets/icons/default/comment-alt-dots.png" alt="comments" />
+      <img
+        src="/src/assets/icons/default/comment-alt-dots.png"
+        alt="comments"
+      />
       <img src="/src/assets/icons/default/bell.png" alt="notifications" />
     </div>
   );

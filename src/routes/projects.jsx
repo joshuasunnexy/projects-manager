@@ -14,9 +14,9 @@ const DisplayProjects = () => {
           </ul>
           <button className="newTask">+ New Task</button>
         </nav>
-        <Outlet />
+
         <div className="todos">
-          
+          <Outlet />
         </div>
       </div>
     </div>
